@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.djovanov.analysis</groupId>
+  <artifactId>Analysis</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Analysis</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+    <slf4jVersion>1.7.10</slf4jVersion>
+    <apacheCommonsCompressVersion>1.9</apacheCommonsCompressVersion>
+    <wikidataToolkitVersion>0.7.0</wikidataToolkitVersion>
+  </properties>
+  
+  <dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+	      <groupId>org.wikidata.wdtk</groupId>
+	      <artifactId>wdtk-datamodel</artifactId>
+	      <version>${wikidataToolkitVersion}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.wikidata.wdtk</groupId>
+	      <artifactId>wdtk-dumpfiles</artifactId>
+	      <version>${wikidataToolkitVersion}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.wikidata.wdtk</groupId>
+	      <artifactId>wdtk-rdf</artifactId>
+	      <version>${wikidataToolkitVersion}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.wikidata.wdtk</groupId>
+	      <artifactId>wdtk-wikibaseapi</artifactId>
+	      <version>${wikidataToolkitVersion}</version>
+	    </dependency>
+	    <dependency>
+		  <groupId>org.apache.commons</groupId>
+		  <artifactId>commons-compress</artifactId>
+		  <version>${apacheCommonsCompressVersion}</version>
+	    </dependency>
+	    <dependency> 
+	      <groupId>org.slf4j</groupId>
+		  <artifactId>slf4j-log4j12</artifactId>
+		  <version>${slf4jVersion}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+	  <plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>2.3.2</version>
+			<configuration>
+				<source>1.7</source>
+				<target>1.7</target>
+			</configuration>
+		</plugin>
+	  </plugins>
+	</build>
+</project>
