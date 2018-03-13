@@ -1,6 +1,6 @@
 # WELT - Wikidata Entity Linking Tool
 
-Wikidata Entity Linking Tool was a project that was developed during my Master Thesis. It utilizes Wikidata as a knowledge base and DoSeR as a framework to build an Entity Linking system for easy and precise text annotation. 
+Wikidata Entity Linking Tool was a project that was developed during my Master Thesis. It utilizes Wikidata as a knowledge base and DoSeR as a framework to build an Entity Linking system for easy and precise text annotation. It uses RDF2Vec for a Word2Vec model and has a generic mention detection step.
 
 ## Getting Started
 
@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+1. Clone the repository to a desired directory.
 
 ```
-Give examples
+git clone 
 ```
 
 ### Installing
@@ -21,7 +21,7 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 ```
-Give the example
+Give the example https://github.com/tf-dbis-uni-freiburg/WELT/
 ```
 
 And repeat
