@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository to a desired directory.
 
 ```
-git clone [https://github.com/tf-dbis-uni-freiburg/WELT/](https://github.com/tf-dbis-uni-freiburg/WELT/)
+git clone https://github.com/tf-dbis-uni-freiburg/WELT/
 ```
 
 2. Install Eclipse or a similar enviornment.
