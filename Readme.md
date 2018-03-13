@@ -11,17 +11,23 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository to a desired directory.
 
 ```
-git clone 
+git clone [https://github.com/tf-dbis-uni-freiburg/WELT/](https://github.com/tf-dbis-uni-freiburg/WELT/)
 ```
+
+2. Install Eclipse or a similar enviornment.
+3. Make sure that Maven is set up.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+A step by step series of examples that tell you have to get a development env running.
+
+1. Import the project in to Eclipse.
+2. Connect the WELT project with the Index of Surface Forms (Lucene Index) in the language that you need.
 
 Say what the step will be
 
 ```
-Give the example https://github.com/tf-dbis-uni-freiburg/WELT/
+Give the example [https://github.com/tf-dbis-uni-freiburg/WELT/](https://github.com/tf-dbis-uni-freiburg/WELT/)
 ```
 
 And repeat
