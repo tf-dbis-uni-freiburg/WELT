@@ -17,59 +17,16 @@ git clone https://github.com/tf-dbis-uni-freiburg/WELT.git
 2. Install Eclipse or a similar enviornment.
 3. Make sure that Maven is set up.
 
-### Installing
+### Installing (Simplified Version)
 
 A step by step series of examples that tell you have to get a development env running.
 
 1. Import the project in to Eclipse.
 2. Connect the WELT project with the Index of Surface Forms (Lucene Index) in the language that you need.
 
-Say what the step will be
+### Full Guide for Result Replication and Extension
 
-```
-Give the example [https://github.com/tf-dbis-uni-freiburg/WELT/](https://github.com/tf-dbis-uni-freiburg/WELT/)
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please use our Wiki to follow the full guide on how to replicate the results. Refer to the [https://github.com/tf-dbis-uni-freiburg/WELT/wiki](Wiki).
 
 ## Authors
 
