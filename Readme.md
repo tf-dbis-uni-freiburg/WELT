@@ -26,7 +26,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 ### Full Guide for Result Replication and Extension
 
-Please use our Wiki to follow the full guide on how to replicate the results. Refer to the [https://github.com/tf-dbis-uni-freiburg/WELT/wiki](Wiki).
+Please use our Wiki to follow the full guide on how to replicate the results. Refer to the [Wiki](https://github.com/tf-dbis-uni-freiburg/WELT/wiki).
 
 ## Authors
 
