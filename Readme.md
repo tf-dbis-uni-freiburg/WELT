@@ -32,10 +32,6 @@ Please use our Wiki to follow the full guide on how to replicate the results. Re
 
 * **Dimitar Jovanov** - *Development, extension and implementation.*
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * **Michael Faerber** - *Mentoring, supervsion and research help.*
