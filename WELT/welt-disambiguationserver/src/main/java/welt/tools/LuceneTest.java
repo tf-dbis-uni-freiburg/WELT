@@ -18,9 +18,10 @@ import welt.lucene.query.TermQuery;
 public class LuceneTest {
 
 	public static void main(String [] args) throws Exception{
-		IndexReader reader = IndexReader.open(FSDirectory.open(new File("F:\\Dimitar\\master_thesis\\doser-rdf2vec\\results\\wikidatawiki-20170717\\lucene")));
+		IndexReader reader = IndexReader.open(FSDirectory.open(new File("F:\\Dimitar\\School Materials\\UoF\\master_thesis\\prior_probabilities_and_index_generation\\results\\wikidatawiki-20170717\\lucene")));
 		// IndexReader reader = IndexReader.open(FSDirectory.open(new File(Properties.getInstance().getEntityCentricKBWikidata())));
 		// IndexReader reader = IndexReader.open(FSDirectory.open(new File("/home/stefan/Arbeitsfläche/mnt/ssd1/disambiguation/LuceneIndex/Wikipedia_Default_AidaNew/")));
+		
 		IndexSearcher searcher = new IndexSearcher(reader);
 		//TermQuery q = new TermQuery(new Term("Mainlink", "http://www.wikidata.org/entity/Q187126"));
 		//TermQuery q = new TermQuery(new Term("Mainlink", "http://www.wikidata.org/entity/Q15136093"));
@@ -36,6 +37,26 @@ public class LuceneTest {
 				System.out.println(field.name() + ": " + field.stringValue());
 			}
 		}
+		
+
+		// STATISTICS
+		/*System.out.println("Processing entities for statistics...");
+		long uniqueLabelCount = 0;
+		for (int i = 0; i < reader.numDocs(); i++) {
+			Document document = reader.document(i);
+			Iterator<IndexableField> iterator = document.getFields().iterator();
+			if(i%100000 == 0) {
+				System.out.println("Entities processed:" + i);
+			}
+			while(iterator.hasNext()) {
+				IndexableField field = iterator.next();
+				if(field.name().equals("UniqueLabel")) {
+					uniqueLabelCount++;
+				}
+			}
+		}
+		System.out.println("Number of entities:" + reader.numDocs());
+		System.out.println("Number of surface forms:" + uniqueLabelCount);*/
 	}
 	
 }
