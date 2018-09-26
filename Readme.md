@@ -1,8 +1,8 @@
 # WELT - Wikidata Entity Linking Tool
 
-Wikidata Entity Linking Tool was a project that was developed during my Master Thesis. It utilizes Wikidata as a knowledge base and DoSeR as a framework to build an Entity Linking system for easy and precise text annotation. It uses RDF2Vec for a Word2Vec model and has a generic mention detection step.
+Wikidata Entity Linking Tool utilizes Wikidata as a knowledge base and DoSeR as a framework to build an Entity Linking system for easy and precise text annotation. It uses RDF2Vec for a Word2Vec model and has a generic mention detection step.
 
-Wokring version of the system available at: http://paxos.informatik.uni-freiburg.de:8080/WELT/
+Working version of the system available at: http://paxos.informatik.uni-freiburg.de:8080/WELT/
 
 ## Getting Started
 
